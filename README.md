@@ -57,8 +57,9 @@ Possibly the simplest step download the CarJoy developed by yours truly from goo
 
 # Considerations and possible future updates.
 
- - Currently the Car.steer() function does not work with angles, but rather a small range, a future update could make the car move at exact angles.
+ - Currently the Car.steer() function does not work with angles, but rather a small range, a future update could make the car move at exact angles rather than rotate right or left, and move forward and backward.
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODUzMzMxMzZdfQ==
+eyJoaXN0b3J5IjpbNjAwMzY2NzY4XX0=
 -->
