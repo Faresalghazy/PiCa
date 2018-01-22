@@ -24,10 +24,13 @@ After assembling the car chassis, mount the Pi and L298N on top. It is important
 ----------
 
 
-# Configuring the software
-First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder.
+# Configuring the pi software
+First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following
+
+    ls PiCa
+    python3 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM2NzE4NzVdfQ==
+eyJoaXN0b3J5IjpbODE2NjgzNzIwXX0=
 -->
