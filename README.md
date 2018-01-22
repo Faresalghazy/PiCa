@@ -58,8 +58,9 @@ Possibly the simplest step download the CarJoy developed by yours truly from goo
 # Considerations and possible future updates.
 
  - Currently the Car.steer() function does not work with angles, but rather a small range, a future update could make the car move at exact angles rather than rotate right or left, and move forward and backward.
+ - I am currently working on transmitting video from the Pi to the CarJoy app using UV4L and a Pi Cam module
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwMzY2NzY4XX0=
+eyJoaXN0b3J5IjpbMTQzMTQ4MzAwMV19
 -->
