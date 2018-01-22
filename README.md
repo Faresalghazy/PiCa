@@ -31,8 +31,8 @@ First, clone or download this repository as a .zip. Second, unpack it and note t
     python3 Main.py
 You should receive an output similar to :
 
-    Socket now listening at port AAAAAA 
-Take note of this 
+    Socket now listening at port <number> 
+Take note of this number as you will need it in the next step. If you would like to always use the same port feel free to change it in Main.py to one of your convenience (such as
 
 You are now ready to control your car :) .
 
@@ -42,5 +42,5 @@ You are now ready to control your car :) .
 # Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEwNjIxNjhdfQ==
+eyJoaXN0b3J5IjpbOTEyNDQ0MTE2XX0=
 -->
