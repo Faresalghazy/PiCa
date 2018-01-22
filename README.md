@@ -32,9 +32,15 @@ First, clone or download this repository as a .zip. Second, unpack it and note t
 You should receive an output similar to :
 
     Socket now listening at port AAAAAA 
+If you would like to 
+
+You are now ready to control your car :) .
 
 
+----------
+
+# Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgyMDQ2M119
+eyJoaXN0b3J5IjpbMTk5Nzk2ODI0NV19
 -->
