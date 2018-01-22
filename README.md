@@ -40,7 +40,8 @@ For example, in Main.py you would change line number 20 to
 Lastly, you need to find the IP of your Pi, this can be done most easily through the terminal using the command:
 
     hostname -I
-  You can expect an output such as
+  You can expect an output such as:
+  1
 
 You are now ready to control your car :) .
 
@@ -50,5 +51,5 @@ You are now ready to control your car :) .
 # Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMTIxNTQzXX0=
+eyJoaXN0b3J5IjpbMjEwMTEyMDAwMl19
 -->
