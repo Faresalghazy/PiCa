@@ -50,8 +50,8 @@ You are now ready to control your car :) .
 ----------
 
 # Controling the car from your Android phone
-Possibly the simplest step download the CarJoy developed by yours truly on the 
+Possibly the simplest step download the CarJoy developed by yours truly from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP port  (n
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjY3NDM1Nl19
+eyJoaXN0b3J5IjpbMTkzNzQyMTIyMF19
 -->
