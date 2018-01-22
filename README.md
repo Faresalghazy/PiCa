@@ -25,7 +25,7 @@ After assembling the car chassis, mount the Pi and L298N on top. It is important
 
 
 # Configuring the pi software
-First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following
+First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following.
 
     ls PiCa
     python3 Main.py
@@ -37,6 +37,8 @@ For example, in Main.py you would change line number 20 to
 
     PORT = int(34330) 
 
+Lastly, you need to find the IP of your Pi, this can be done through the terminal using
+
 You are now ready to control your car :) .
 
 
@@ -45,5 +47,5 @@ You are now ready to control your car :) .
 # Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ5MzI1NDldfQ==
+eyJoaXN0b3J5IjpbMjAzMjA5NDE1N119
 -->
