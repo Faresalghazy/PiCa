@@ -35,7 +35,7 @@ You should receive an output similar to :
 Take note of this number as you will need it in the next step. If you would like to always use the same port feel free to change it in Main.py to one of your convenience (such as 34330).
 For example, in Main.py you would change line number 20 to
 
-    PORT = int(34330) P
+    PORT = int(34330) 
 You can find a suitable port using this Android application: [](https://play.google.com/store/apps/details?id=com.centennialapps.portfinder&hl=en)
 
 Lastly, you need to find the IP of your Pi, this can be done most easily through the terminal using the command:
@@ -53,5 +53,5 @@ You are now ready to control your car :) .
 Possibly the simplest step download the CarJoy developed by yours truly on the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzQ4MDY1M119
+eyJoaXN0b3J5IjpbLTY0ODA4NjE3MV19
 -->
