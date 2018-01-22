@@ -42,14 +42,15 @@ Lastly, you need to find the IP of your Pi, this can be done most easily through
     hostname -I
  You can expect an output of a number such as:
   XXX.XXX.X.XXX
-This is your local IP adress, take note of it
+This is your local IP adress, take note of it.
 You are now ready to control your car :) .
 
 
 ----------
 
 # Controling the car from your Android phone
+Possibly the simplest step download the Car
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMwMjIwOThdfQ==
+eyJoaXN0b3J5IjpbMjc1NjY3NTU4XX0=
 -->
