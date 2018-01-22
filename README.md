@@ -40,7 +40,7 @@ For example, in Main.py you would change line number 20 to
 Lastly, you need to find the IP of your Pi, this can be done most easily through the terminal using the command:
 
     hostname -I
-  You can e
+  You can expect 
 
 You are now ready to control your car :) .
 
@@ -50,5 +50,5 @@ You are now ready to control your car :) .
 # Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzUwOTQ5MF19
+eyJoaXN0b3J5IjpbNzU4NDYyNTEyXX0=
 -->
