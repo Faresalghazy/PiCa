@@ -36,7 +36,7 @@ Take note of this number as you will need it in the next step. If you would like
 For example, in Main.py you would change line number 20 to
 
     PORT = int(34330) 
-
+You can find a suitable port using thisa
 Lastly, you need to find the IP of your Pi, this can be done most easily through the terminal using the command:
 
     hostname -I
@@ -49,8 +49,8 @@ You are now ready to control your car :) .
 ----------
 
 # Controling the car from your Android phone
-Possibly the simplest step download the Car
+Possibly the simplest step download the CarJoy developed by yours truly on the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1NjY3NTU4XX0=
+eyJoaXN0b3J5IjpbMTM4NDU2MjE2N119
 -->
