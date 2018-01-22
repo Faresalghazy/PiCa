@@ -32,7 +32,10 @@ First, clone or download this repository as a .zip. Second, unpack it and note t
 You should receive an output similar to :
 
     Socket now listening at port <number> 
-Take note of this number as you will need it in the next step. If you would like to always use the same port feel free to change it in Main.py to one of your convenience (such as
+Take note of this number as you will need it in the next step. If you would like to always use the same port feel free to change it in Main.py to one of your convenience (such as 34330).
+For example, in Main.py you would change line number 20 to
+
+    PORT = int(0) 
 
 You are now ready to control your car :) .
 
@@ -42,5 +45,5 @@ You are now ready to control your car :) .
 # Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNDQ0MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5MzcyMTQyNzhdfQ==
 -->
