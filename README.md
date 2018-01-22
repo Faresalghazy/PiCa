@@ -20,9 +20,9 @@ To make a car, you need the following:
 After assembling the car chassis, mount the Pi and L298N on top. It is important to remember that the L298N should have a common ground from the Pi and battery pack, to do this, simply connect the Pi's GND pin(On a Raspberry pi 3 this could be pin number 39) to the battery pack GND wire (black) by twisting or soldering them together, then connect them to the L298N GND. Finally, the connections I made from the L298N to the wheels, and Pi to the L298N were as follows:
 (https://imgur.com/97e7FSS) , however you can use any GPIO pins you like.
 
-# Config
+# Configuring the O
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3MjAxNjhdfQ==
+eyJoaXN0b3J5IjpbMTU1NTU1MDE5MV19
 -->
