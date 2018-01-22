@@ -21,9 +21,9 @@ After assembling the car chassis, mount the Pi and L298N on top. It is important
 (https://imgur.com/97e7FSS) , however you can use any GPIO pins you like.
 
 # Configuring the software
-
+First, clone or download this repository as a .zip. Second
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwODEzMjA1XX0=
+eyJoaXN0b3J5IjpbLTM0MDI4NTQwM119
 -->
