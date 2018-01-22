@@ -35,7 +35,7 @@ You should receive an output similar to :
 Take note of this number as you will need it in the next step. If you would like to always use the same port feel free to change it in Main.py to one of your convenience (such as 34330).
 For example, in Main.py you would change line number 20 to
 
-    PORT = int(34) 
+    PORT = int(34330) 
 
 You are now ready to control your car :) .
 
@@ -45,5 +45,5 @@ You are now ready to control your car :) .
 # Controling the car from your Android phone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjMzNjQ0NV19
+eyJoaXN0b3J5IjpbLTIwNjQ5MzI1NDldfQ==
 -->
