@@ -28,9 +28,13 @@ After assembling the car chassis, mount the Pi and L298N on top. It is important
 First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following
 
     ls PiCa
-    python3 
+    python3 Main.py
+You should receive an output similar to :
+
+    Socket now listening at port AAAAAA 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NjgzNzIwXX0=
+eyJoaXN0b3J5IjpbLTE2MTgyMDQ2M119
 -->
