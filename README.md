@@ -18,7 +18,7 @@ To make a car, you need the following:
 
  If you have the parts lying around, feel free to use them, I used the following kit [found here](http://a.co/eoH4D1q) I would note that the motors are not of the best quality, but that is understandable at the price point.
 After assembling the car chassis, mount the Pi and L298N on top. It is important to remember that the L298N should have a common ground from the Pi and battery pack, to do this, simply connect the Pi's GND pin(On a Raspberry pi 3 this could be pin number 39) to the battery pack GND wire (black) by twisting or soldering them together, then connect them to the L298N GND. Finally, the connections I made from the L298N to the wheels, and Pi to the L298N were as follows
-[here ](%28https://imgur.com/97e7FSS%29) , however you can use any GPIO pins you like.
+![at this link ](%28https://imgur.com/97e7FSS%29) , however you can use any GPIO pins you like.
 
 
 ----------
@@ -65,5 +65,5 @@ Possibly the simplest step download the CarJoy developed by yours truly from goo
 eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzI3NTAxOF19
+eyJoaXN0b3J5IjpbLTEyNDk5MzgxNjJdfQ==
 -->
