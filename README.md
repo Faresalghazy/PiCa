@@ -2,13 +2,13 @@
 
 # *PiCa*
 
- is an open-source beginner's robotics project and a suitable introduction to IoT. While it is easy to replicate, the programming concepts used are of intermediate level(OOP and WebSockets)so understanding them may be difficult to beginners. On the other hand, PiCa is a fun way to get children into DIY and computers due to the easy to follow instructions made available here, while also having enough room for improvement for more adept programmers and makers (if you would like to contribute, please feel free to submit a pull request). PiCa is a 2 wheel Raspberry Pi based car, however, the Car class should be compatible with similar SoCs, such as Bannana Pi, Orange Pi, and ASUS Tinker Board.
+ is an open-source Raspberry pi car beginner's robotics project and a suitable introduction to IoT. While it is easy to replicate, the programming concepts used are of intermediate level(OOP and WebSockets)so understanding them may be difficult to beginners. On the other hand, PiCa is a fun way to get children into DIY and computers due to the easy to follow instructions made available here, while also having enough room for improvement for more adept programmers and makers (if you would like to contribute, please feel free to submit a pull request). PiCa is a 2 wheel Raspberry Pi based car, however, the Car class should be compatible with similar SoCs, such as Bannana Pi, Orange Pi, and ASUS Tinker Board.
 
 
 ----------
 
 
-# Building the car.
+# Building the car
 To make a car, you need the following:
  1. Car chassis
  2. DC motors
@@ -25,7 +25,7 @@ After assembling the car chassis, mount the Pi and L298N on top. It is important
 
 
 # Configuring the pi software
-First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following.
+First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following:
 
     ls PiCa
     python3 Main.py
@@ -55,9 +55,9 @@ Possibly the simplest step download the CarJoy developed by yours truly from goo
 
 ----------
 
-# Considerations and possible future updates.
+# Considerations and possible future updates
 
- - Currently the Car.steer() function does not work with angles, but rather a small range, a future update could make the car move at exact angles rather than rotate right or left, and move forward and backward.
+ - Currently, the Car.steer() method does not work with angles, but rather a small range, a future update could make the car move at exact angles rather than rotate right or left, and move forward and backward.
  - I am currently working on transmitting video from the Pi to the CarJoy app using UV4L and a Pi Cam module
  - PiCa is not *my* project, it is *our* project. I would be happy to see everyone contributing to it, as a result, if you are able to improve the Car class, please do so and submit a pull request, you will ofcourse be credited
 
