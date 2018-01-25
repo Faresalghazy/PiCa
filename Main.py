@@ -36,7 +36,8 @@ def sendvid(f=20,v=8000):
 
 
 #start video feed in different thread
-thread.start_new_thread(sendvid, ())
+#uncomment to start video
+#thread.start_new_thread(sendvid, ())
 #Receive the angle from android app and steer the car
 
 PORT = int(0)  # Port to communicate over, 0 will find any free port
