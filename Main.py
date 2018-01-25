@@ -8,13 +8,35 @@ Program by Fares Al Ghazy, started on the fifteenth of December 2017
 
 from Car2 import Car
 import socket
+import subprocess
+import picamera
+import thread
+
+def sendvid(f=20,v=8000):
+#Code to stream video to the interwebs using PiCam
+#Adapted from "The magpi essentials The camera module guide" https://www.raspberrypi.org/magpi-issues/Essentials_Camera_v1.pdf
+
+    framerate= f
+    VPort=v
+    camera = picamera.PiCamera()
+    #Comment the following 2 lines based on your setup of the camera
+    camera.hflip = True
+    camera.vflip = True
+    camera.resolution = (320, 180)
+    camera.framerate = framerate
+
+    server_socket = socket.socket()
+    server_socket.bind(('0.0.0.0', VPort))
+    server_socket.listen(0)
+    # Accept a single connection and make a file-like
+    # object out of it
+    connection = server_socket.accept()[0].makefile('wb')
+    camera.start_recording(connection, format='h264')
 
 
-#Start Video Feed
-'''
-TODO
-'''
 
+#start video feed in different thread
+thread.start_new_thread(sendvid, ())
 #Receive the angle from android app and steer the car
 
 PORT = int(0)  # Port to communicate over, 0 will find any free port
