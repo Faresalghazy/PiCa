@@ -70,7 +70,7 @@ By default, the framerate is 20 FPS and the port the video is transmitted over i
  For example, for an fps of 30 at port 8001:
     thread.start_new_thread(sendvid, (30,8001))
 
-Finally, the default resolution is 320x180, if you would like to change it, edit the following line of code 
+Finally, the default resolution is 320x180, if you would like to change it, edit the following line of code (Current
 
         camera.resolution = (320, 180)
 
@@ -93,5 +93,5 @@ eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 eyJoaXN0b3J5IjpbMjAyODk0NTM5MV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc1MjMxODNdfQ==
+eyJoaXN0b3J5IjpbMTM0NDg0MjExMl19
 -->
