@@ -63,7 +63,7 @@ By default, video is disabled, uncomment the following line in Main.py using you
 
     #thread.start_new_thread(sendvid, ())
 
-To change the frame rate of the vide
+To change the frame rate of the video
 
 # Controlling the car from your Android phone
 Possibly the simplest step, download the CarJoy developed by yours truly from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP and port  (note that this works with external IPs as well), make sure to press the set buttons. Go back and enjoy steering your car.
@@ -84,5 +84,5 @@ eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 eyJoaXN0b3J5IjpbMjAyODk0NTM5MV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzQ4NTAxN119
+eyJoaXN0b3J5IjpbMTUwMDY0NDY0Nl19
 -->
