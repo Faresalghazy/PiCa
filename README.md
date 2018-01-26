@@ -59,7 +59,8 @@ This is your local IP adress, take note of it.
 You are now ready to control your car :) .
 
 ## Configuring video
-By default, video is disabled, uncomment the following line to enable it
+By default, video is disabled, uncomment the following line to enable it:
+
 
 ----------
 
@@ -82,5 +83,5 @@ eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 eyJoaXN0b3J5IjpbMjAyODk0NTM5MV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0ODYzNzcyXX0=
+eyJoaXN0b3J5IjpbLTE0ODcwOTgxMjJdfQ==
 -->
