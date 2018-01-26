@@ -58,6 +58,8 @@ Lastly, you need to find the IP of your Pi, this can be done most easily through
 This is your local IP adress, take note of it.
 You are now ready to control your car :) .
 
+## Configuring video
+
 
 ----------
 
@@ -80,5 +82,5 @@ eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 eyJoaXN0b3J5IjpbMjAyODk0NTM5MV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTg0MzQ5OF19
+eyJoaXN0b3J5IjpbLTIwNDQwNjgwNzZdfQ==
 -->
