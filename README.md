@@ -66,8 +66,10 @@ By default, video is disabled, uncomment the following line in Main.py using you
 By default, the framerate is 20 FPS and the port the video is transmitted over is 8000, to change this, change the previous line of code to :
 
     thread.start_new_thread(sendvid, (<new framerate>,<new port>))
- For example, for an fps of 30 at port 8
 
+ For example, for an fps of 30 at port 8001:
+    thread.start_new_thread(sendvid, (30,8001))
+Finally, 
 # Controlling the car from your Android phone
 Possibly the simplest step, download the CarJoy developed by yours truly from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP and port  (note that this works with external IPs as well), make sure to press the set buttons. Go back and enjoy steering your car.
 
@@ -87,5 +89,5 @@ eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 eyJoaXN0b3J5IjpbMjAyODk0NTM5MV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDA1ODQ0XX0=
+eyJoaXN0b3J5IjpbMTg1ODY1NjQ2OV19
 -->
