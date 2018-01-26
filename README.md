@@ -73,7 +73,8 @@ By default, the framerate is 20 FPS and the port the video is transmitted over i
 Finally, the default resolution is 320x180, if you would like to change it, edit the following line of code (Currently line 25):
 
         camera.resolution = (320, 180)
-
+	
+----------
 # Controlling the car from your Android phone
 Possibly the simplest step, download the CarJoy developed by Centennial Apps from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP and port  (note that this works with external IPs as well), make sure to press the set buttons. Go back and enjoy steering your car. Alternatively, you can use or develop any application that sends the steering angle as a UTF string to the car
 
