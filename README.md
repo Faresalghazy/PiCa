@@ -61,6 +61,7 @@ You are now ready to control your car :) .
 ## Configuring video
 By default, video is disabled, uncomment the following line to enable it:
 
+    enter code here
 
 ----------
 
@@ -83,5 +84,5 @@ eyJoaXN0b3J5IjpbMTgyODIyMzgxN119
 eyJoaXN0b3J5IjpbMjAyODk0NTM5MV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcwOTgxMjJdfQ==
+eyJoaXN0b3J5IjpbNTg2Nzg3Mzg1XX0=
 -->
