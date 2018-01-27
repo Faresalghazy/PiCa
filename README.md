@@ -39,7 +39,7 @@ however you can use any GPIO pins you like.
 # Configuring the pi software
 First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following:
 
-    ls PiCa
+    cd PiCa
     python3 Main.py
 You should receive an output similar to :
 
