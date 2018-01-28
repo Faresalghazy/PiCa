@@ -89,8 +89,8 @@ By default, <yourport> would be 8000
 
 # Considerations and possible future updates
 
- - Currently, the Car.steer() method does not work with angles, but rather a small range, a future update could make the car move at exact angles rather than rotate right or left, and move forward and backward.
- - I am currently working on transmitting video from the Pi to the CarJoy app using UV4L and a Pi Cam module
+ - Currently, the Car.steer() method does not work with all angles, but rather a small range, a future update could make the car move at exact angles rather than rotate right or left, and move forward and backward.
+ - I am currently working on receiving video from the car using CarJoy and a videoview, this should be
  - PiCa is not *my* project, it is *our* project. I would be happy to see everyone contributing to it, as a result, if you are able to improve the Car class, please do so and submit a pull request, you will ofcourse be credited
 
 <!--stackedit_data:
@@ -106,5 +106,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNTc5NDk0XX0=
+eyJoaXN0b3J5IjpbLTE1MTcwOTgxMTBdfQ==
 -->
