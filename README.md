@@ -39,7 +39,7 @@ however you can use any GPIO pins you like.
 # Configuring the pi software
 First, clone or download this repository as a .zip. Second, unpack it and note the location of the repository, we will assume it is on your home folder. In which case, open up a terminal and type the following:
 
-    cd PiCa
+    cd PiCa
     python3 Main.py
 You should receive an output similar to :
 
@@ -76,8 +76,9 @@ Finally, the default resolution is 320x180, if you would like to change it, edit
 	
 ----------
 # Controlling the car from your Android phone
-Possibly the simplest step, download the CarJoy developed by Centennial Apps from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP and port  (note that this works with external IPs as well), make sure to press the set buttons. Go back and enjoy steering your car. Alternatively, you can use or develop any application that sends the steering angle as a UTF string to the car
+	Possibly the simplest step, download the CarJoy developed by Centennial Apps from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP and port  (note that this works with external IPs as well), make sure to press the set buttons. Go back and enjoy steering your car. Alternatively, you can use or develop any application that sends the steering angle as a UTF string to the car
 
+	Until development of the CarJoy app is fully complete,
 
 ----------
 
@@ -100,5 +101,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MDUwNzYyXX0=
+eyJoaXN0b3J5IjpbLTIwOTkxNDM5MzVdfQ==
 -->
