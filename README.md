@@ -78,7 +78,7 @@ Finally, the default resolution is 320x180, if you would like to change it, edit
 # Controlling the car from your Android phone
 	Possibly the simplest step, download the CarJoy developed by Centennial Apps from google play [here](https://play.google.com/store/apps/details?id=centennialapps.fares.carcontroller&hl=en). Enter the settings page, enter your IP and port  (note that this works with external IPs as well), make sure to press the set buttons. Go back and enjoy steering your car. Alternatively, you can use or develop any application that sends the steering angle as a UTF string to the car
 
-	CarJoy is still under development,with the missing feature of having video built in, while this should be out soon, you can for now get a first person view of your car'
+	CarJoy is still under development,with the missing feature of having video built in, while this should be out soon, you can for now get a first person view of your car's 
 
 ----------
 
@@ -101,5 +101,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTA2MTMwMl19
+eyJoaXN0b3J5IjpbMTc1OTI5NzYyM119
 -->
