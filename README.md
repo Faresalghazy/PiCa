@@ -68,7 +68,13 @@ You are now ready to control your car :) .
 ## Configuring video
 
 The following instructions use two dependencies, raspivid and cvlc, make sure you have them installed using:
-sudo apt-get install vlc
+
+    sudo apt-get install vlc
+
+Be sure to also run:
+
+    sudo apt-get update
+    sudo apt-get upgrade
 
 By default, video is disabled, uncomment the following line in Main.py using your favorite text editor to enable it:
 
@@ -116,6 +122,7 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk0OTI3MjRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzYxNTk4NDZdfQ==
 -->
