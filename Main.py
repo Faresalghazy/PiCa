@@ -11,28 +11,14 @@ import socket
 import subprocess
 import picamera
 import thread
+import os
 
-def sendvid(f=20,v=8000):
+def sendvid(f=24,v=8160):
 #Code to stream video to the interwebs using PiCam
-#Adapted from "The magpi essentials The camera module guide" https://www.raspberrypi.org/magpi-issues/Essentials_Camera_v1.pdf
 
-    framerate= f
-    VPort=v
-    camera = picamera.PiCamera()
-    #Comment the following 2 lines based on your setup of the camera
-    camera.hflip = True
-    camera.vflip = True
-    camera.resolution = (320, 180)
-    camera.framerate = framerate
-
-    server_socket = socket.socket()
-    server_socket.bind(('0.0.0.0', VPort))
-    server_socket.listen(0)
-    # Accept a single connection and make a file-like
-    # object out of it
-    connection = server_socket.accept()[0].makefile('wb')
-    camera.start_recording(connection, format='h264')
-
+    command= "raspivid -o - -t 0 -hf -vf -w 640 -h 480 -fps "+f+"|cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:"+v+"}' :demux=h264"
+    os.system(command)
+    
 
 
 #start video feed in different thread
