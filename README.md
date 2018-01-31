@@ -77,7 +77,7 @@ By default, the framerate is 24 FPS and the port the video is transmitted over i
  For example, for an fps of 30 at port 8001:
     thread.start_new_thread(sendvid, (30,8001))
 
-Finally, the default resolution is 320x180, if you would like to change it, edit the following line of code (Currently line 25):
+Finally, the default resolution is 640x480, if you would like to change it, edit the following line of code (Currently line 19):
 
        command= "raspivid -o - -t 0 -hf -vf -w 640 -h 480 -fps "+f+"|cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:"+v+"}' :demux=h264"
 	
@@ -113,5 +113,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NzEyMDgyXX0=
+eyJoaXN0b3J5IjpbLTIzMzA4MjE4MV19
 -->
