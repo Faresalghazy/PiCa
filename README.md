@@ -42,7 +42,7 @@ First, clone this repository to your pi.  Using a terminal, type:
     git clone https://github.com/Faresalghazy/PiCa
 
 You may also download as .zip but be sure to unpack it
-Second, we will assume the is on your home folder. In which case, open up a terminal and type the following:
+Second, we will assume the repo is on your home folder. In which case, open up a terminal and type the following:
 
 
     cd PiCa
@@ -112,5 +112,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU1NDU0ODldfQ==
+eyJoaXN0b3J5IjpbLTc4MDU4OTEyM119
 -->
