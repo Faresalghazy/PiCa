@@ -70,7 +70,7 @@ By default, video is disabled, uncomment the following line in Main.py using you
 
     #thread.start_new_thread(sendvid, ())
 
-By default, the framerate is 20 FPS and the port the video is transmitted over is 8000, to change this, change the previous line of code  (Currently line 40) to :
+By default, the framerate is 24 FPS and the port the video is transmitted over is 8160, to change this, change the previous line of code  (Currently line 40) to :
 
     thread.start_new_thread(sendvid, (<new framerate>,<new port>))
 
@@ -79,7 +79,7 @@ By default, the framerate is 20 FPS and the port the video is transmitted over i
 
 Finally, the default resolution is 320x180, if you would like to change it, edit the following line of code (Currently line 25):
 
-        camera.resolution = (320, 180)
+       command= "raspivid -o - -t 0 -hf -vf -w 640 -h 480 -fps "+f+"|cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:"+v+"}' :demux=h264"
 	
 ----------
 # Controlling the car from your Android phone
@@ -113,5 +113,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI4NzQ3NzNdfQ==
+eyJoaXN0b3J5IjpbOTQ2NzEyMDgyXX0=
 -->
