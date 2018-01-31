@@ -70,7 +70,7 @@ By default, video is disabled, uncomment the following line in Main.py using you
 
     #thread.start_new_thread(sendvid, ())
 
-By default, the framerate is 24 FPS and the port the video is transmitted over is 8160, to change this, change the previous line of code  (Currently line 40) to :
+By default, the framerate is 24 FPS and the port the video is transmitted over is 8160, to change this, change the previous line of code  (Currently line 26) to :
 
     thread.start_new_thread(sendvid, (<new framerate>,<new port>))
 
@@ -113,5 +113,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzA4MjE4MV19
+eyJoaXN0b3J5IjpbLTIyMDY0MTgwNV19
 -->
