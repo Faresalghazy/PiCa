@@ -66,6 +66,10 @@ This is your local IP adress, take note of it.
 You are now ready to control your car :) .
 
 ## Configuring video
+
+The following instructions use two dependencies, raspivid and cvlc, make sure you have them installed using:
+
+
 By default, video is disabled, uncomment the following line in Main.py using your favorite text editor to enable it:
 
     #thread.start_new_thread(sendvid, ())
@@ -113,5 +117,5 @@ eyJoaXN0b3J5IjpbMTQzNTcxODU0XX0=
 eyJoaXN0b3J5IjpbMTAwMTY3NjA5NV19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDY0MTgwNV19
+eyJoaXN0b3J5IjpbMzk4NDk5MTQ1XX0=
 -->
