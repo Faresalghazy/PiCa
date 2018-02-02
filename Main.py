@@ -16,7 +16,7 @@ import os
 def sendvid(f=24,v=8160):
 #Code to stream video to the interwebs using PiCam
 #command from http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player
-
+#Remove '-vf' if your video is upside down
     command= "raspivid -o - -t0 -hf -vf -w 640 -h 480 -n -fps "+f+"|cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:"+v+"}' :demux=h264"
     os.system(command)
     
