@@ -33,39 +33,34 @@ class Car:
         GPIO.output(self.FWR,0)
         GPIO.output(self.BWR,0)
     def steer(self,angle):
-        sleeper=0.00
+
         
         angle=int(angle)
         if(angle==0):
             self.allzero()
-        if(angle<=10):
+        if(0<angle<=10):
             GPIO.output(self.FWL,1)
             GPIO.output(self.BWL,0)
             GPIO.output(self.FWR,0)
             GPIO.output(self.BWR,0)
-            time.sleep(sleeper)
         if (80<=angle<=100):
             GPIO.output(self.FWL,1)
             GPIO.output(self.FWR,1)
-            GPIO.output(self.FWR,0)
+            GPIO.output(self.BWL,0)
             GPIO.output(self.BWR,0)
-            time.sleep(sleeper)
         if (170<=angle<=190):
             GPIO.output(self.FWL,0)
             GPIO.output(self.BWL,0)
             GPIO.output(self.BWR,0)
             GPIO.output(self.FWR,1)
-            time.sleep(sleeper)
         if (260<=angle<=280):
             GPIO.output(self.BWR,1)
             GPIO.output(self.BWL,1)
             GPIO.output(self.FWL,0)
             GPIO.output(self.FWR,0)
-            time.sleep(sleeper)
         if(angle>=355):
             GPIO.output(self.BWL,1)
             GPIO.output(self.FWR,0)
             GPIO.output(self.BWR,0)
             GPIO.output(self.FWL,0) 
-            time.sleep(sleeper)
        
